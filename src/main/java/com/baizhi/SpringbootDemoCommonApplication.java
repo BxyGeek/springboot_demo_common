@@ -8,6 +8,11 @@ import tk.mybatis.spring.annotation.MapperScan;
 @SpringBootApplication
 public class SpringbootDemoCommonApplication {
     public static void main(String[] args) {
+        
+        
+        
+        
+        
         SpringApplication.run(SpringbootDemoCommonApplication.class, args);
     }
 }
