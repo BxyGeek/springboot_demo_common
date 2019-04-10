@@ -1,0 +1,12 @@
+server:
+  port: 8085
+  context-path: /springboot
+spring:
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    url: jdbc:mysql://localhost:3306/bxy
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: root
+mybatis:
+  type-aliases-package: com.baizhi.entity
